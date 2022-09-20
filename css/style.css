@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:,regular,700,900&display=swap');
+
+@font-face {
+	font-family: 'Playball';
+	src: url('../fonts/Playball-Regular.woff2') format('woff2'), url('../fonts/Playball-Regular.woff') format('woff');
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Canterbury';
+    src: url('../fonts/Canterbury-Regular.woff2') format('woff2'), url('../fonts/Canterbury-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* ======================================================================================= */
+
+.header {
+	max-width: 810px;
+	margin: 0 auto;
+}
+.page {
+	max-width: 810px;
+	margin: 0 auto;
+}
+.page p {
+	font-family: 'Lato';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+}
+.title {
+	font-family: 'Lato';
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-top: 15px;
+	margin-bottom: 92px;
+}
+
+.page-image {
+	max-width: 100%;
+	margin-bottom: 60px;
+
+}
+.page-text{
+	margin-bottom: 48px;
+}
+.page-text p {
+	padding-bottom: 20px;
+}
+.page-title{
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	margin-bottom: 24px;
+	color: #1E212C;
+}
+.page-subtitle {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 20px;
+	color: #1E212C;
+	line-height: 150%;
+	margin: 0px 0px 48px 58px;
+}
+.page-quota {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	padding-bottom: 24px;
+}
+.page-list {
+	font-family: 'Lato';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	padding-bottom: 24px;
+	margin-left: 25px;
+}
+.page-footer {
+	color: #424551;
+	padding-bottom: 24px;
+}
+/* ==================================================================================== */
+.homework {
+	background-color: rgb(190, 190, 190);
+	border: 3px solid black;
+	border-radius: 5px;
+	padding: 15px;
+	margin: 15px;
+}
+.homework p {
+	font-family: 'Canterbury';
+	font-size: 40px;
+}
+.homework-title {
+	font-family: 'Playball';
+	text-transform: uppercase;
+	font-size: 80px;
+	background-color: rgb(103, 103, 236);
+	height: 110px;
+	color: yellow;
+	text-shadow: 5px 5px 10px yellow;
+	text-decoration: underline;
+	padding-top: 15px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.homework-text{
+	border: 5px dotted green;
+	margin-bottom: 25px;
+	padding: 10px;
+	color: violet;
+}
+.homework-middle {
+	border: 5px dashed yellow;
+	padding: 10px;
+	background-color: #1E212C;
+	color: #ffffff;
+	opacity: 0.3;
+	box-shadow: 5px 5px 1px 2px black;
+	margin-bottom: 25px;
+}
+.homework-footer {
+	border: 5px double rgb(230, 11, 182);
+	padding: 10px;
+	margin-bottom: 100px;
+}
+.homework-circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: rgb(235, 235, 75);
+	margin: 0 auto;
+	box-shadow: 0px 0px 100px 120px rgb(236, 112, 112), inset 0 0 40px 50px rgb(236, 112, 112);
+}
+.footer{
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 43px;
+	text-align: center;
+}
+.footer-link{
+	display: inline-block;
+	background-color: rgb(71, 71, 214);
+	padding: 15px;
+	border: 3px solid black;
+	border-radius: 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
